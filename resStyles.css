@@ -1,0 +1,45 @@
+.col1, .col2 {
+  float:left;
+  width:45%;
+  margin-right:5%
+}
+.col3 {
+  width:100%;
+}
+.sidebox-1 {
+  display:inherit;
+}
+
+@media screen and (min-width:740px) {
+  .main-content {
+    width:65%;
+    float: left;
+    margin-right:5%;
+  }
+  .col1, .col2 {
+    width: 45%;
+  }
+  .col3 {
+    width: 100%;
+  }
+  .sidebar {
+    float:left;
+    width:30%;
+  }
+}
+
+@media screen and (min-width:900px) {
+  .col1, .col2, .col3 {
+    float: left;
+    width: 30%;
+    margin-right: 5%;
+  }
+  .col3 {
+    margin-right: 0%;
+  }
+  .main-content {
+    width: 65%;
+    float: left;
+    margin-right: 5%;
+  }
+}
